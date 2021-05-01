@@ -42,5 +42,3 @@ A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 ## Citation
 
 To cite this lesson, please consult with [CITATION](CITATION)
-
-View Course: [Cosmic Distances](https://outyprouty.github.io/cosmicDistances/)

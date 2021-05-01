@@ -153,8 +153,8 @@ That was quick! We haven't written our package's `CMakeLists.txt` files, so it d
 > >
 > > ~~~bash
 > > # Run from build/ directory
-> > source ~/release_setup.sh 
-> > source x86_64-centos7-gcc8-opt/setup.sh 
+> > source ~/release_setup.sh
+> > source x86_64-centos7-gcc8-opt/setup.sh
 > > ~~~
 > > {: .language-bash}
 > >
@@ -168,4 +168,3 @@ That was quick! We haven't written our package's `CMakeLists.txt` files, so it d
 
 
 {% include links.md %}
-
