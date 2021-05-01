@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+---
+layout: lesson
+root: .  # Is the only page that doesn't follow the pattern /:path/index.html
+permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+---
+The ATLAS software, called *athena*, itself is a very large project containing many packages. To help define all of the dependencies, CMake is used to manage the build process. To make a developer's life easier, athena defines several custom macros. This lesson describes how to use these custom macros to build an user package.
 
-You can use the [editor on GitHub](https://github.com/outyprouty/cosmicDistances/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> ## Prerequisites
+>
+> This assumes that you'll have a basic knowledge of CMake, for example:
+>
+> 1. What out-of-source builds are
+> 2. How to write a simple `CMakeList.txt`
+> 3. How to generate a `Makefile` from a `CMakeLists.txt`
+>
+> This lesson will also build on the `AnalysisPayload` project started in the previous ATLAS GitLab lesson.
+{: .prereq}
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/outyprouty/cosmicDistances/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+{% include links.md %}
