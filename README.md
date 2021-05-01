@@ -1,14 +1,14 @@
-View at: https://outyprouty.github.io/cosmicDistances/
 
-# ATLAS CMake
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
+# Cosmic Distances
 
-This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. 
+[Join the UMBC Observatory Discord Server](https://discord.gg/Sk9CTcAunb)
+
+This repository generates the corresponding lesson website from [UMBC Observatory](observatory.umbc.edu) repertoire of lessons.
 
 ## Contributing
 
-We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
+We welcome all contributions to improve the lessons! Maintainers will do their best to help you if you have any
 questions, concerns, or experience any difficulties along the way.
 
 We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at
@@ -24,9 +24,9 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 
 ## Maintainer(s)
 
-Current maintainers of this lesson are 
+Current maintainers of this lesson are
 
-* Karol Krizka
+* Roy Prouty
 
 
 ## Authors
@@ -37,4 +37,4 @@ A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
 
 To cite this lesson, please consult with [CITATION](CITATION)
 
-[lesson-example]: https://carpentries.github.io/lesson-example
+View Course: [Cosmic Distances](https://outyprouty.github.io/cosmicDistances/)
