@@ -5,7 +5,7 @@
   <div class="row">
     <div class="col-md-6" align="left">
       <h4>
-	Copyright &copy; 2016–{{ 'now' | date: "%Y" }}
+	Copyright &copy; 2021–{{ 'now' | date: "%M%Y" }}
 	{% if site.carpentry == "swc" %}
 	<a href="{{ site.swc_site }}">Software Carpentry</a>
 	{% elsif site.carpentry == "dc" %}
@@ -13,13 +13,13 @@
 	{% elsif site.carpentry == "lc" %}
 	<a href="{{ site.lc_site }}">Library Carpentry</a>
 	{% elsif site.carpentry == "cp" %}
-	<a href="{{ site.carpentries_site }}">The Carpentries</a>
+	<a href="{{ site.carpentries_site }}">UMBC Observatory</a>
 	{% endif %}
       </h4>
     </div>
     <div class="col-md-6" align="right">
       <h4>
-	<a href="mailto:{{ site.email }}">Contact The Carpentries</a>
+	<a href="mailto:{{ site.email }}">Contact UMBC Observatory</a>
       </h4>
     </div>
   </div>
