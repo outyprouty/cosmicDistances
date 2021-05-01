@@ -6,6 +6,10 @@
 
 This repository generates the corresponding lesson website from [UMBC Observatory](observatory.umbc.edu) repertoire of lessons.
 
+
+##View Course
+[Cosmic Distances](https://outyprouty.github.io/cosmicDistances/)
+
 <!---
 ## Contributing
 
