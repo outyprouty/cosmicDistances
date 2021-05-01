@@ -26,10 +26,10 @@ kind: "lesson"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: kkrizka/atlas-cmake
+repository: outyprouty/cosmicDistances
 
 # Email address, no mailto:
-email: "kkrizka@gmail.com"
+email: "proutyr1@umbc.edu"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
