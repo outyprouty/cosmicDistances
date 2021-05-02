@@ -34,6 +34,7 @@
 
     {% for section in site.sections %}
         {% if section.sectionTitle == currentSection %}
+        {% if section.layout == "lesson" %}
         {% assign current = section.teaching %}
         {% assign hours = current | divided_by: 60 %}
         {% assign minutes = current | modulo: 60 %}
@@ -48,6 +49,7 @@
             {{ section.overview }}
             </td>
         </tr>
+        {% endif %}
         {% endif %}
     {% endfor %}
 

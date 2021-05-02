@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem 'jekyll-katex'
+  gem 'execjs'
+end
+#per: https://github.com/linjer/jekyll-katex
+#per: https://jekyllrb.com/docs/ruby-101/
