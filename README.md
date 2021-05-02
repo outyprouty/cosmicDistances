@@ -8,7 +8,7 @@ This repository generates the corresponding lesson website from [UMBC Observator
 
 
 ## View Course
-[Cosmic Distances](https://outyprouty.github.io/cosmicDistances/)
+[Cosmic Distances](https://outyprouty.github.io/cosmicDistances/index.html)
 
 <!---
 ## Contributing
