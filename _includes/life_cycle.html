@@ -1,5 +1,5 @@
 
-{% if site.life_cycle == "pre-alpha" %}
+{% if page.life_cycle == "pre-alpha" %}
 
 <div class="panel panel-default life-cycle">
   <div id="life-cycle" class="panel-body pre-alpha">
@@ -8,7 +8,7 @@
 </div>
 
 
-{% elsif site.life_cycle == "alpha" %}
+{% elsif page.life_cycle == "alpha" %}
 
 <div class="panel panel-default life-cycle">
   <div id="life-cycle" class="panel-body alpha">
@@ -17,7 +17,7 @@
 </div>
 
 
-{% elsif site.life_cycle == "beta" %}
+{% elsif page.life_cycle == "beta" %}
 
 <div class="panel panel-default life-cycle">
   <div id="life-cycle" class="panel-body beta">
@@ -25,7 +25,7 @@
   </div>
 </div>
 
-{% elsif site.life_cycle == "stable" %}
+{% elsif page.life_cycle == "stable" %}
 
 {% comment %}
 We don't do anything special for now

@@ -30,7 +30,6 @@ SOURCE_RMD_DIRS = ['_episodes_rmd']
 # 'bin/initialize' script.
 REQUIRED_FILES = {
     '%/CONTRIBUTING.md': False,
-    '%/LICENSE.md': True,
     '%/README.md': False,
     '%/_extras/discuss.md': True,
     '%/_extras/guide.md': True,

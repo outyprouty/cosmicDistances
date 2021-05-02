@@ -1,8 +1,12 @@
 ---
 layout: base
 ---
-{% include main_title.html %}
+{% include section_title.html %}
+{% include section_navbar.html section_navbar_title=true %}
 <article>
-  {{ content }}
+{% include lesson_title.html %}
+{% include lesson_overview.html %}
+{{content}}
+{% include lesson_keypoints.html %}
 </article>
-{% include syllabus.html %}
+{% include section_navbar.html section_navbar_title=false %}

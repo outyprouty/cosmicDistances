@@ -1,9 +1,6 @@
 {% include base_path.html %}
-[cc-by-human]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
+[cc-by-human]: https://creativecommons.org/publicdomain/zero/1.0/
 [ci]: http://communityin.org/
-[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html
-[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
 [concept-maps]: https://carpentries.github.io/instructor-training/05-memory/
 [contrib-covenant]: https://contributor-covenant.org/
 [contributing]: {{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md
@@ -14,6 +11,7 @@
 [email]: mailto:team@carpentries.org
 [github-importer]: https://import.github.com/
 [importer]: https://github.com/new/import
+[introductions]: {{ relative_root_path }}/files/CD_GettingToKnow.pdf
 [jekyll-collection]: https://jekyllrb.com/docs/collections/
 [jekyll-install]: https://jekyllrb.com/docs/installation/
 [jekyll-windows]: http://jekyll-windows.juthilo.com/
@@ -21,9 +19,8 @@
 [jupyter]: https://jupyter.org/
 [kramdown]: https://kramdown.gettalong.org/
 [lc-lessons]: https://librarycarpentry.org/lessons/
-[lesson-aio]: {{ relative_root_path }}{% link aio.md %}
 [lesson-example]: https://carpentries.github.io/lesson-example/
-[lesson-license]: {{ relative_root_path }}{% link LICENSE.md %}
+[lesson-aio]: {{ relative_root_path }}{% link aio.md %}
 [lesson-mainpage]: {{ relative_root_path }}{% link index.md %}
 [lesson-reference]: {{ relative_root_path }}{% link reference.md %}
 [lesson-setup]: {{ relative_root_path }}{% link setup.md %}
@@ -44,5 +41,4 @@
 [swc-lessons]: https://software-carpentry.org/lessons/
 [swc-releases]: https://github.com/swcarpentry/swc-releases
 [training]: https://carpentries.github.io/instructor-training/
-[workshop-repo]: {{ site.workshop_repo }}
 [yaml]: http://yaml.org/

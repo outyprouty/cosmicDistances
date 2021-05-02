@@ -1,0 +1,60 @@
+{% include base_path.html %}
+
+{% comment %}
+  Display syllabus in tabular form.
+  Days are displayed if at least one episode has 'start = true'.
+{% endcomment %}
+
+{% assign currentSection = page.sectionTitle %}
+
+<div class="syllabus">
+  <h2 id="schedule">Section Schedule</h2>
+
+  {% assign lesson_number = 0 %}
+  {% assign day = 0 %}
+  {% assign multiday = false %}
+  {% for section in site.sections %}
+    {% if section.start %}{% assign multiday = true %}{% break %}{% endif %}
+  {% endfor %}
+  {% assign current = site.start_time %}
+
+  <table class="table table-striped">
+    <tr>
+        <th>
+            Estimated Time
+        </th>
+        <th>
+            Lesson Title
+        </th>
+        <th>
+            Lesson Purpose
+        </th>
+    </tr>
+
+
+    {% for section in site.sections %}
+        {% if section.sectionTitle == currentSection %}
+        {% assign current = section.teaching %}
+        {% assign hours = current | divided_by: 60 %}
+        {% assign minutes = current | modulo: 60 %}
+        <tr>
+            <td class="col-md-2">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}
+            </td>
+            <td class="col-md-3">
+            {% assign lesson_number = lesson_number | plus: 1 %}
+            {{ lesson_number }}. <a href="{{ relative_root_path }}{{ section.url }}">{{ section.title }}</a>
+            </td>
+            <td class="col-md-7">
+            {{ section.overview }}
+            </td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+
+  </table>
+
+  <p>
+    The actual schedule may vary slightly depending on the topics and exercises chosen by the Course Lead.
+  </p>
+
+</div>

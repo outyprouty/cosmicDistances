@@ -2,9 +2,13 @@
 layout: base
 ---
 {% include section_navbar.html section_navbar_title=true %}
-<article>
+
 {% include section_title.html %}
-{% include section_break.html %}
-{{content}}
+{% include section_schedule.html %}
+<article>
+    {% include lesson_title.html %}
+    {% include lesson_overview.html %}
+    {{content}}
+    {% include lesson_keypoints.html %}
 </article>
 {% include section_navbar.html section_navbar_title=false %}
