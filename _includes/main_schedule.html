@@ -41,9 +41,15 @@ Section Purpose
 
     {% for section in site.sections %}
         {% if section.layout == "section" %}
-        {% assign current = section.teaching %}
-        {% assign hours = current | divided_by: 60 %}
-        {% assign minutes = current | modulo: 60 %}
+        {% assign currentSection = section.sectionTitle %}
+        {% assign totalTimeInSection = 0 %}
+        {% for sec in site.sections %}
+            {% if sec.sectionTitle == currentSection %}
+                {% assign totalTimeInSection = totalTimeInSection | plus: sec.teaching %}
+            {% endif %}
+        {% endfor %}
+        {% assign hours = totalTimeInSection | divided_by: 60 %}
+        {% assign minutes = totalTimeInSection | modulo: 60 %}
         <tr>
             <td class="col-md-2">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}
             </td>

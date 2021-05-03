@@ -5,6 +5,7 @@ gem "jekyll"
 group :jekyll_plugins do
     gem 'jekyll-spaceship'
     gem 'execjs'
+    gem 'jekyll-scholar'
 end
 #per: https://github.com/linjer/jekyll-katex
 #per: https://jekyllrb.com/docs/ruby-101/

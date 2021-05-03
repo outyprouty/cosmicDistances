@@ -1,6 +1,7 @@
 ---
-title: Discussion
+title: Resources
 ---
-FIXME
+
+
 
 {% include links.md %}

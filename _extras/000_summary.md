@@ -1,7 +1,6 @@
 ---
-title: Discussion
+title: All Key Points
 layout: reference
 ---
-FIXME
 
 {% include links.md %}

@@ -1,5 +1,6 @@
 ---
 title: Why Python?
+latout: base
 ---
 Python is a free programming language.
 Additionally, it is consistently rated as one of the easiest to understand.

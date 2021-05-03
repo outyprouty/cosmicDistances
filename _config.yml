@@ -34,24 +34,43 @@ cc_by_human: "https://creativecommons.org/publicdomain/zero/1.0/"
 course_information: "https://userpages.umbc.edu/~proutyr1/CD/Course-Information.html"
 introductions: "./files/CD_GettingToKnow.pdf"
 
+#Images: https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
+url: file:///Users/proutyr1/github/cosmicDistances/_site/
+
+#baseurl: file:///Users/proutyr1/github/cosmicDistances/_site
+
 # Surveys.
-swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
-swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
-training_post_survey: "https://www.surveymonkey.com/r/post-instructor-training"
-dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
-dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
-lc_pre_survey: "https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id="
-lc_post_survey: "https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id="
-instructor_pre_survey: "https://www.surveymonkey.com/r/instructor_training_pre_survey?workshop_id="
-instructor_post_survey: "https://www.surveymonkey.com/r/instructor_training_post_survey?workshop_id="
+
+# per: https://gist.github.com/roachhd/ed8da4786ba79dfc4d91
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./
+  bibliography: bibliography.bib
+  style: phys
+  bibliography_template: {{reference}}
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
 markdown: kramdown
 
-# plugins:
-#   - jekyll-spaceship
+# https://drscotthawley.github.io/blog/2020/07/01/Citations-Via-Bibtex.html#enabling-jekyll-scholar
+plugins:
+   - jekyll-scholar
 #
 # # Where things are
 # jekyll-spaceship:
