@@ -1,0 +1,34 @@
+I"�<h2 id="need-for-angular-measurements">Need for Angular Measurements</h2>
+<p>Ancient maps usually gave locations in terms of distances and directions from a specific place (e.g., Rome or Alexandria). This is fine for a flat earth approximation, but not obviously so good on a sphere, especially when distances get large. On spheres, it is better to use angular coordinates.</p>
+
+<h3 id="units">Units</h3>
+<p>The Ancient Babylonians started the tradition of dividing the circle into 360 degrees.
+360 is close to 365, the days in a year.
+360 is divisible by 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120 and 180 without having to use fractions.
+Start by dividing the circle into quarters (90 degrees), then subdividing further using geometric constructions.</p>
+
+<p>Subdividing the Degree
+Degrees are divided into Minutes of Arc (‘):
+1 degree divided into 60 minutes of arc
+“minute” from “pars minuta prima” (first small part).
+Minutes are divided into Seconds of Arc (“):</p>
+
+<p>1 minute divided into 60 seconds of arc
+“second” from “parte minutae secundae” (second small part)
+1 second = 1/3600th of a degree (very small)
+Question: Why 60?</p>
+
+<p>Answer: The Babylonians (again)…</p>
+
+<p>60 is divisible by 2, 3, 4, 5, 6, 10, 12, 15, 20, and 30 without fractions.
+The Babylonians actually subdivided the degree as fractions of 60, for example:
+7 14/60 degrees</p>
+
+<p>Claudius Ptolemy introduced the modern notation of expressing angles in terms of minutes and seconds of arc</p>
+
+<p>7o 14’ 00”</p>
+
+<hr />
+<p>This page content largely borrowed with permission from <span id="osu"><b>Astro 161 by Professor R. Pogge</b>, http://www.astronomy.ohio-state.edu/ pogge/Ast161/Unit1.</span></p>
+
+:ET

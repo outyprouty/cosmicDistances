@@ -1,0 +1,134 @@
+I"<h2 id="universal-constants">Universal Constants</h2>
+<blockquote class="prereq">
+  <p><strong>Gravitational Constant</strong></p>
+
+  <p>\(G = 6.67408 \times 10^{-11} \frac{N\cdot m^2}{kg^2}\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Speed of Light in Vacuum</strong></p>
+
+  <p>\(c = 2.99792458 \times 10^{8} \frac{m}{s}\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Stefan-Boltzmann Constant</strong></p>
+
+  <p>\(\sigma = 5.670373 \times 10^{-8} \frac{W}{m^2\cdot K}\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Pi</strong></p>
+
+  <p>\(\pi = 3.14159 \approx \pi\) [Google]</p>
+</blockquote>
+
+<h2 id="solar-system-constants">Solar System Constants</h2>
+<h3 id="sun">Sun</h3>
+<blockquote class="prereq">
+  <p><strong>Solar Mass</strong></p>
+
+  <p>\(m_{Sun} = 1.99 \times 10^{30} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Solar Radius (average)</strong></p>
+
+  <p>\(r_{Sun} = 6.96 \times 10^{8} m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Distance to Earth</strong></p>
+
+  <p>\(d_{Sun} = 1.496 \times 10^{11} m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<h3 id="earth">Earth</h3>
+<blockquote class="prereq">
+  <p><strong>Earth Mass</strong></p>
+
+  <p>\(m_{Earth} = 5.9736 \times 10^{24} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Earth Radius (average)</strong></p>
+
+  <p>\(r_{Earth} = 6.376 \times 10^{6} m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Distance to Earth</strong></p>
+
+  <p>\(d_{Earth} = 0 m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Orbital Period about Sun</strong></p>
+
+  <p>\(T_{Earth,Sun} = 3.16 \times 10^7 s\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<h3 id="moon">Moon</h3>
+<blockquote class="prereq">
+  <p><strong>Moon Mass</strong></p>
+
+  <p>\(m_{Moon} = 7.35 \times 10^{24} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Moon Radius (average)</strong></p>
+
+  <p>\(r_{Moon} = 1.74 \times 10^{6} m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Distance to Earth</strong></p>
+
+  <p>\(d_{Moon} = 3.84 \times 10^{8} m\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Orbital Period about Earth</strong></p>
+
+  <p>\(T_{Moon,Earth} = 2.36 \times 10^6 s\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<h3 id="particle-masses">Particle Masses</h3>
+<blockquote class="prereq">
+  <p><strong>Mass of Proton/Hydrogen Nucleus</strong></p>
+
+  <p>\(m_p = 1.67262 \times 10^{-27} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Mass of Neutron</strong></p>
+
+  <p>\(m_n = 1.67492 \times 10^{-27} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Mass of Electron</strong></p>
+
+  <p>\(m_e = 9.10938 \times 10^{-31} kg\) <a class="citation" href="#collegePhys">[1]</a></p>
+</blockquote>
+
+<h3 id="astronomical-numbers">Astronomical Numbers</h3>
+<blockquote class="prereq">
+  <p><strong>Astronomical Unit (AU)</strong></p>
+
+  <p>1 AU is the Mean Distance from the Earth to the Sun</p>
+
+\[1 AU = 1.496\times 10^8 kilometers\]
+</blockquote>
+
+<blockquote class="prereq">
+  <p><strong>Light Year (ly)</strong></p>
+
+  <p>1 Light Year (ly) is the Distance Traveled by Light in 1 Year</p>
+
+\[1 ly = 9.46x10^{12} kilometers\]
+</blockquote>
+
+<ol class="bibliography"><li><span id="collegePhys"><b>College Physics</b>, https://openstax.org/details/books/college-physics.</span></li></ol>
+
+:ET

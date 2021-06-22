@@ -1,0 +1,87 @@
+I"%	
+<script>
+  window.onload = function() {
+    var lesson_sections = [
+    
+    "/100_math/100/index.html",
+    
+    "/100_math/110/index.html",
+    
+    "/100_math/120/index.html",
+    
+    "/200_radar/200/index.html",
+    
+    "/200_radar/210/index.html",
+    
+    "/200_radar/220/index.html",
+    
+    "/300_parallax/300/index.html",
+    
+    "/300_parallax/310/index.html",
+    
+    "/300_parallax/320/index.html",
+    
+    "/400_msFitting/400/index.html",
+    
+    "/400_msFitting/410/index.html",
+    
+    "/400_msFitting/420/index.html",
+    
+    "/500_cepheidVar/500/index.html",
+    
+    "/500_cepheidVar/510/index.html",
+    
+    "/500_cepheidVar/520/index.html"
+    
+    ];
+    var xmlHttp = [];  /* Required since we are going to query every section. */
+    for (i=0; i < lesson_sections.length; i++) {
+      xmlHttp[i] = new XMLHttpRequest();
+      xmlHttp[i].section = lesson_sections[i];  /* To enable use this later. */
+      xmlHttp[i].onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var article_here = document.getElementById(this.section);
+          var parser = new DOMParser();
+          var htmlDoc = parser.parseFromString(this.responseText,"text/html");
+          var htmlDocArticle = htmlDoc.getElementsByTagName("article")[0];
+          article_here.innerHTML = htmlDocArticle.innerHTML;
+        }
+      }
+      var section_url = ".." + lesson_sections[i];
+      xmlHttp[i].open("GET", section_url);
+      xmlHttp[i].send(null);
+    }
+  }
+</script>
+
+<article id="/100_math/100/index.html"></article>
+
+<article id="/100_math/110/index.html"></article>
+
+<article id="/100_math/120/index.html"></article>
+
+<article id="/200_radar/200/index.html"></article>
+
+<article id="/200_radar/210/index.html"></article>
+
+<article id="/200_radar/220/index.html"></article>
+
+<article id="/300_parallax/300/index.html"></article>
+
+<article id="/300_parallax/310/index.html"></article>
+
+<article id="/300_parallax/320/index.html"></article>
+
+<article id="/400_msFitting/400/index.html"></article>
+
+<article id="/400_msFitting/410/index.html"></article>
+
+<article id="/400_msFitting/420/index.html"></article>
+
+<article id="/500_cepheidVar/500/index.html"></article>
+
+<article id="/500_cepheidVar/510/index.html"></article>
+
+<article id="/500_cepheidVar/520/index.html"></article>
+
+:ET

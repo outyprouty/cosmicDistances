@@ -100,6 +100,22 @@ title: Constants
 {: .prereq}
 
 
+### Astronomical Numbers
+> **Astronomical Unit (AU)**
+>
+> 1 AU is the Mean Distance from the Earth to the Sun
+>
+> $$1 AU = 1.496\times 10^8 kilometers$$
+{: .prereq}
+
+> **Light Year (ly)**
+>
+> 1 Light Year (ly) is the Distance Traveled by Light in 1 Year
+>
+> $$1 ly = 9.46x10^{12} kilometers$$
+{: .prereq}
+
+
  {% bibliography --cited %}
 
 

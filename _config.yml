@@ -35,8 +35,8 @@ course_information: "https://userpages.umbc.edu/~proutyr1/CD/Course-Information.
 introductions: "./files/CD_GettingToKnow.pdf"
 
 #Images: https://dev-notes.eu/2016/01/images-in-kramdown-jekyll/
-#url: file:///Users/proutyr1/github/cosmicDistances/_site/
-url: https://outyprouty.github.io/cosmicDistances/
+url: file:///Users/proutyr1/github/cosmicDistances/_site/
+#url: https://outyprouty.github.io/cosmicDistances/
 
 #baseurl: file:///Users/proutyr1/github/cosmicDistances/_site
 

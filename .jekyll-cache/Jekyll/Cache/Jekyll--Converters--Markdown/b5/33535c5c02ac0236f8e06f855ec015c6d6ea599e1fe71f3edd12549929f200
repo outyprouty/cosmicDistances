@@ -1,0 +1,53 @@
+I"�
+<h2 id="need-for-angular-measurements">Need for Angular Measurements</h2>
+<p>Ancient maps usually gave locations in terms of distances and directions from a specific place (e.g., Rome or Alexandria). This is fine for a flat earth approximation, but not obviously so good on a sphere, especially when distances get large. On spheres, it is better to use angular coordinates.</p>
+
+<h3 id="units">Units</h3>
+<p>The Ancient Babylonians started the tradition of dividing the circle into 360 degrees.</p>
+<ul>
+  <li>360 is close to 365, the days in a year.</li>
+  <li>360 is divisible by 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60, 72, 90, 120 and 180 without having to use fractions.</li>
+</ul>
+
+<p>Start by dividing the circle into quarters (90 degrees), then subdividing further using geometric constructions.</p>
+
+<h4 id="subdividing-the-degree">Subdividing the Degree</h4>
+
+<p>Degrees are divided into Minutes of Arc (‘):</p>
+<ul>
+  <li>1 degree divided into 60 minutes of arc</li>
+  <li>“minute” from “pars minuta prima” (first small part).</li>
+</ul>
+
+<p>Minutes are divided into Seconds of Arc (“):</p>
+<ul>
+  <li>1 minute divided into 60 seconds of arc</li>
+  <li>“second” from “parte minutae secundae” (second small part)</li>
+  <li>1 second = 1/3600th of a degree (very small)</li>
+</ul>
+
+<p>Question: Why 60?</p>
+
+<p>Answer: The Babylonians (again) …</p>
+
+<p>60 is divisible by 2, 3, 4, 5, 6, 10, 12, 15, 20, and 30 without fractions.</p>
+
+<p>The Babylonians actually subdivided the degree as fractions of 60, for example:
+7 14/60 degrees</p>
+
+<p>Claudius Ptolemy introduced the modern notation of expressing angles in terms of minutes and seconds of arc, for example:
+7<sup>o</sup> 14’ 00”</p>
+
+<h4 id="alternative-to-degrees">Alternative to Degrees</h4>
+<p>Degrees, as discussed above are an inherently subjective measure. The fact that there are 360 of them in a circle is an artifact of the Earth’s movement around the Sun. Another species on a planet orbiting perhaps another star might determine an entirely different unit of angular measure.</p>
+
+<p>Such a measure exists, called a <strong>radian</strong> it is a more-or-less objective measure relating to the radius of a circle.</p>
+
+<p>The radian is defined to be the angular distance subtended (a fancy word for ‘taken-up’) by a length along the circumference of a circle equal to the radius of that circle. See the image below for a visual.</p>
+
+<p><img src="file:///Users/proutyr1/github/cosmicDistances/_site//assets/img/radian-circle.svg" alt="Radians" /></p>
+
+<hr />
+<p>This page content largely borrowed with permission from <span id="osu"><b>Astro 161 by Professor R. Pogge</b>, http://www.astronomy.ohio-state.edu/ pogge/Ast161/Unit1.</span></p>
+
+:ET

@@ -27,7 +27,7 @@ serve : lesson-md
 
 ## site             : build files but do not run a server.
 site : lesson-md
-	${JEKYLL} build
+	${JEKYLL} build --watch
 
 # repo-check        : check repository settings.
 repo-check :

@@ -1,0 +1,216 @@
+I"�<h2 id="metric-system">Metric System</h2>
+<p>The metric system or International System of Units to discuss all quantities they work with. In French this is “Système international d’unités” or the SI system. At present, only the United States, Liberia &amp; Myanmar (aka Burma) have not adopted SI units as their primary system of units.</p>
+
+<p>The basic units of the metric system are:</p>
+<ol>
+  <li>length measured in meters (m)</li>
+  <li>mass measured in kilograms (kg)</li>
+  <li>time measured in seconds (s)</li>
+</ol>
+
+<p>For more on SI units, follow this citation: <a class="citation" href="#nist">[1]</a>.</p>
+
+<p>This means that we will always express measurements in these units!</p>
+
+<p>Yes, even if the number is astronomically large! This is where we will employ scientific notation!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Prefix</th>
+      <th>Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(10^3\)</td>
+      <td>kilo-</td>
+      <td>kilogram, kilometer, kilobyte</td>
+    </tr>
+    <tr>
+      <td>\(10^6\)</td>
+      <td>mega-</td>
+      <td>megawatt, megayear, megabyte, megaton</td>
+    </tr>
+    <tr>
+      <td>\(10^9\)</td>
+      <td>giga-</td>
+      <td>gigayear, gigaton, gigabyte</td>
+    </tr>
+    <tr>
+      <td>\(10^{12}\)</td>
+      <td>tera-</td>
+      <td>terawatt, terabyte</td>
+    </tr>
+    <tr>
+      <td>\(10^{-2}\)</td>
+      <td>centi-</td>
+      <td>centimeter</td>
+    </tr>
+    <tr>
+      <td>\(10^{-3}\)</td>
+      <td>milli-</td>
+      <td>millimeter, millisecond, milliliter</td>
+    </tr>
+    <tr>
+      <td>\(10^{-6}\)</td>
+      <td>micro-</td>
+      <td>microsecond, micron</td>
+    </tr>
+    <tr>
+      <td>\(10^{-9}\)</td>
+      <td>nano-</td>
+      <td>nanosecond, nanometer</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="common-examples">Common Examples</h3>
+
+<p>Length:</p>
+<blockquote>
+  <p>1 kilometer = \(10^{3}\) meters (1000 meters)</p>
+
+  <p>1 centimeter = \(10^{-2}\) meters (1/100th of a meter)</p>
+
+  <p>1 millimeter = \(10^{-3}\) meters (1/1000th of a meter)</p>
+
+  <p>1 micron = \(10^{-6}\) meters (short for “micrometer”)</p>
+</blockquote>
+
+<p>Time:</p>
+<blockquote>
+  <p>1 nanosecond = \(10^{-9}\) seconds (1 billionth of a second)</p>
+
+  <p>1 gigayear (Gy) = \(10^{9}\) years (1 Billion years)</p>
+
+  <p>1 megayear (My) = \(10^{6}\) years (1 Million years)</p>
+</blockquote>
+
+<hr />
+
+<h3 id="units-of-length">Units of Length</h3>
+<p>The basic unit of length is the meter (\(m\)).</p>
+
+<p>Traditional Definition:</p>
+<blockquote>
+  <p>1 ten-millionth the distance from the North Pole to the Equator of the Earth.</p>
+</blockquote>
+
+<p>Modern Definition:</p>
+<blockquote>
+  <p>The distance traveled by light in a vacuum in 1/299792458th of a second.
+We will most commonly encounter meters and kilometers.</p>
+</blockquote>
+
+<h4 id="astronomical-units-of-length">Astronomical Units of Length</h4>
+<p>Meters and kilometers are fine for most terrestrial applications, but when we start talking about the enormous distances between the planets, or between stars and galaxies, it is customary to define special units to keep the numbers from getting too big. The most important of these for our purposes in this course are:</p>
+
+<blockquote class="prereq">
+  <p><strong>Astronomical Unit (AU)</strong></p>
+
+  <p>1 AU is the Mean Distance from the Earth to the Sun</p>
+
+\[1 AU = 1.496\times 10^8 kilometers\]
+</blockquote>
+
+<p>The AU is used for expressing the distances between planets.</p>
+
+<blockquote class="prereq">
+  <p><strong>Light Year (ly)</strong></p>
+
+  <p>1 Light Year (ly) is the Distance Traveled by Light in 1 Year</p>
+
+\[1 ly = 9.46x10^{12} kilometers\]
+</blockquote>
+
+<p>The light year is used for expressing the distances between stars.</p>
+
+<h4 id="space-is-big">Space is BIG</h4>
+<p>For example, what is the distance between the Earth and:</p>
+<ul>
+  <li>The Moon: \(384,000 ~km\)</li>
+  <li>The Sun: 1 AU (\(149,600,000 ~km\))</li>
+  <li>Alpha Centauri (nearest star): \(4.2~ ly\) (\(266,000~ AU\))</li>
+  <li>Center of the Milky Way Galaxy: \(26,000~ ly\) (\(1.65 \times 10^9~ AU\))</li>
+</ul>
+
+<p>As you can see, if you only use kilometers or meters, the numbers would get out of hand very fast.</p>
+
+<hr />
+
+<h3 id="units-of-time">Units of Time</h3>
+
+<p>The basic unit of time is the second (s).</p>
+
+<p>Traditional Definition:</p>
+<ul>
+  <li>1/86400th of the mean solar day.</li>
+</ul>
+
+<p>Modern Definition:</p>
+<ul>
+  <li>9,192,631,770 oscillations of a <sup>133</sup>Cesium atomic clock.</li>
+</ul>
+
+<p>We will usually measure time in units of seconds, minutes, hours, and years.</p>
+
+<hr />
+
+<h3 id="units-of-mass">Units of Mass</h3>
+
+<p>The basic unit of mass is the kilogram (kg).</p>
+
+<p>Traditional Definition:</p>
+<ul>
+  <li>1 kilogram is the mass of 1 liter of pure water.</li>
+</ul>
+
+<p>Modern Definition:</p>
+<ul>
+  <li>1 kilogram = mass of the international prototype of the kilogram.</li>
+  <li>This is a piece of platinum-iridium alloy kept at the International Bureau of Weights &amp; Measures in Sèvres, France.</li>
+</ul>
+
+<p>We will be most often use masses in kilograms.</p>
+
+<h4 id="mass-versus-weight">Mass versus Weight</h4>
+<p>Mass and Weight are NOT the same!
+Strictly speaking:</p>
+
+<ul>
+  <li><strong>Mass</strong> is the amount of matter in an object.</li>
+  <li><strong>Weight</strong> is the force of gravity on an object.</li>
+</ul>
+
+<p>Of the two, Mass is the more fundamental quantity.</p>
+<ul>
+  <li>Mass is the same everywhere regardless of the strength of the local gravitational field</li>
+  <li>Weight depends on the strength of the local gravity field (i.e., it is different on the Earth and Moon for the same mass.)</li>
+</ul>
+
+<h4 id="mass-and-weight-in-everyday-units">Mass and Weight in Everyday Units</h4>
+
+<p><strong>Metric</strong></p>
+<ul>
+  <li>Mass in kilograms</li>
+  <li>Weight in Newtons</li>
+</ul>
+
+<p><strong>English Units</strong></p>
+<ul>
+  <li>Mass in slugs</li>
+  <li>Weight in pounds</li>
+</ul>
+
+<p>In commercial and everyday usage, “weight” is synonymous with “mass”, and the metric unit of the kilogram is used. In engineering and physics, however, we need to be careful to make the distinction, and so weight takes units of Netwons, and mass units of kilograms.</p>
+
+<p>This double meaning often causes confusion: a subtlety not often appreciated is that the conversion between pounds (weight) and kilograms (mass) that you can find in tables of weights and measures is only strictly true at the surface of the Earth (and then only for an assumed mean gravitational force at the sea-level)!</p>
+
+<p>On the Moon or Mars, where the gravity is different at the surface, the conversion is also different!</p>
+
+<hr />
+<p>This page content largely borrowed with permission from <span id="osu"><b>Astro 161 by Professor R. Pogge</b>, http://www.astronomy.ohio-state.edu/ pogge/Ast161/Unit1.</span></p>
+
+:ET

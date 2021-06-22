@@ -1,0 +1,16 @@
+I"d<p>This lesson builds on the <code class="language-plaintext highlighter-rouge">AnalysisPayload</code> program developed in the ATALS GitLab lesson. To continue, you will need to have a working version of it.</p>
+
+<p>If you had any issues working on your own project, you can always fork the example from the <a href="https://gitlab.cern.ch/usatlas-computing-bootcamp-2020/v1-gitlab-finished-code">usatlas-computing-bootcamp-2020/v1-gitlab-finished-code</a> GitLab repository.</p>
+
+<h1 id="quick-start">Quick Start</h1>
+<p>Start your docker image with</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">--rm</span> <span class="nt">-it</span> <span class="nt">-w</span> /home/atlas/Bootcamp <span class="nt">-v</span> <span class="se">\</span>
+    <span class="nv">$PWD</span>:/home/atlas/Bootcamp atlas/analysisbase:21.2.125 <span class="se">\</span>
+    bash <span class="nt">-c</span> <span class="s1">'cp -r ssh-credentials ~/.ssh; cp gitconfig ~/.gitconfig ; bash'</span>
+</code></pre></div></div>
+
+<p>Clone the starting point using</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--recursive</span> ssh://git@gitlab.cern.ch:7999/usatlas-computing-bootcamp-2020/v1-gitlab-finished-code.git
+</code></pre></div></div>
+
+:ET
