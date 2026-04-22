@@ -2,8 +2,6 @@
 
 # Cosmic Distances
 
-[Join the UMBC Observatory Discord Server](https://discord.gg/Sk9CTcAunb)
-
 This repository generates the corresponding lesson website from [UMBC Observatory](observatory.umbc.edu) repertoire of lessons.
 
 
